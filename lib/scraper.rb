@@ -3,7 +3,7 @@ require 'nokogiri'
 require 'open-uri'
 
 #do I need an array/@@all? 
-class Scraper
+class StartYourDay::Scraper
 @@all = []
 
     def self.meditation

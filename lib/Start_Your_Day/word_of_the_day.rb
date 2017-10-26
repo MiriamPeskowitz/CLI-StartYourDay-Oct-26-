@@ -1,7 +1,7 @@
 
-# class Word_of_the_day
+class StartYourDay::Word_of_the_day
 
-# 	def initialize( )
-# 	end
+	def initialize( )
+	end
 
-# end 
+end 

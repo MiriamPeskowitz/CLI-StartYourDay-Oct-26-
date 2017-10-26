@@ -1,0 +1,6 @@
+
+
+class StartYourDay::Ideas
+	
+
+end

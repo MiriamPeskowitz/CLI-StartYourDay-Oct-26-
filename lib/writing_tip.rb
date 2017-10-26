@@ -1,5 +1,5 @@
 
-class Writing_tip
+class StartYourDay::Writing_tip
 	attr_reader :text
 
 	def initialize(text)
