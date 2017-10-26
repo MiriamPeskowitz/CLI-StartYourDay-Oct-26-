@@ -6,6 +6,23 @@ Start_Your_Day brings you a few warm-up ideas, factoids and possibilities to get
 The Start_Your_Day gem tells you the date and  the day of the year, to help you locate yourself in time. Then it offers you a daily meditation, a writing tip, a word-of-the-day and tidbits of five intriguing ideas. You can choose whether to see all of these, or choose among them). Whatever your choice, when you're done, you get a “follow your passion today message.”
 
 
+Note about the history of commits: 
+I began this project while the devs were figuring out the Learn IDE 3 edge case, that it only supplied temporary files. After a few days of struggling through the issue, Avi helped me set up Ruby on my mac, and use Sublime Text. We didn’t get to solve the problem of the repo — that my files were being saved on the cli-data-gem-assessment-v-000 repo, even though the assignment asks us to create our own repo. 
+
+This was solved on Oct 26, when with a coach, I created the new repo and pushed my files to it. You’ll see the commits from there on. If you want to see the 70 or so commits before then, they’re on these links: 
+
+branch: master
+https://github.com/MiriamPeskowitz/Start-Your-Day-CLI/tree/master 8 commits
+https://github.com/MiriamPeskowitz/Start-Your-Day-CLI/commits/master
+
+branch: miriam
+https://github.com/MiriamPeskowitz/Start-Your-Day-CLI/tree/miriam — 71 commits
+https://github.com/MiriamPeskowitz/Start-Your-Day-CLI/commits/miriam
+
+
+branch test (working with tech coach to sort out the repo problem) 
+https://github.com/MiriamPeskowitz/Start-Your-Day-CLI/commits/test
+
 
 
 
