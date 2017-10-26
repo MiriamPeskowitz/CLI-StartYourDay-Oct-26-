@@ -15,6 +15,4 @@ end
 
 #   #lines 8-27: thinking through whether to push scraped data into an array or hash here, or push it straight into cli.rb. Went with the 2d idea. 
   
-
-
 #   #formatting -- dig deep enough into nokogiri to get the most precise text or use .chomp . .split and make it into an array, then iterate over the array. 

@@ -7,4 +7,4 @@ class StartYourDay::Writing_tip
 	end
 
 end
-end 
+

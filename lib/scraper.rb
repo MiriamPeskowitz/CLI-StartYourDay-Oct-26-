@@ -31,8 +31,8 @@ class StartYourDay::Scraper
     def self.ideas
       doc4 = Nokogiri::HTML(open("https://www.aspeninstitute.org/ideas/"))
       title = doc4.css(".five-best-ideas__card__text").text.gsub(".", ".  ") # how to get the first only #change to regex with . ! ? 
-      @@all<@title
       Ideas.new(title)
+      binding.pry
     end
 
     def self.starters

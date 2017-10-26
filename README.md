@@ -1,5 +1,10 @@
 # StartYourDay
 
+
+1. loop through the ideas method 
+
+
+
 Start_Your_Day brings you a few warm-up ideas, factoids and possibilities to get each day going. You know how to wake up, scroll through social media for a touch of connection, and then get lost in the links? This is a calmer day-starter, to give you some nourishment for mind and spirit -- no links, no time-suck, just an awesome way to begin every day. 
 
 
