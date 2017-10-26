@@ -2,15 +2,15 @@
 
 # class Start_Your_Day:: Today
 
-	def initialize # do i need to initialize? what does a new Today need? Can this
-		#just stay in th CLI? 
-def get_todays_date # move to object
-    time = Time.new
-    @full_date = time.strftime(" %A %B %d %Y ")
-    @day_in_year = time.strftime("%j")
-    puts "#{@full_date}"
-    puts "It's day ** #{@day_in_year} ** of the year."
-  end
+# 	def initialize # do i need to initialize? what does a new Today need? Can this
+# 		#just stay in th CLI? 
+# def get_todays_date # move to object
+#     time = Time.new
+#     @full_date = time.strftime(" %A %B %d %Y ")
+#     @day_in_year = time.strftime("%j")
+#     puts "#{@full_date}"
+#     puts "It's day ** #{@day_in_year} ** of the year."
+#   end
 
 
 #   def self.todays_date

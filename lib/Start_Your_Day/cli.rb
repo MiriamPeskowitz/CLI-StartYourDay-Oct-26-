@@ -1,5 +1,5 @@
 require 'pry'
-require 'date'
+# require 'date'
 
 # do these need to go here, or is the dependency now assumed? 
 
@@ -8,18 +8,18 @@ class StartYourDay::CLI
   def call
     # start out by scraping all the data
     puts "Welcome to the new day..."
-    todays_date
+    # todays_date
     choose
    
   end
 #get the right syntax
-  def get_todays_date # move to object
-    time = Time.new
-    @full_date = time.strftime(" %A %B %d %Y ")
-    @day_in_year = time.strftime("%j")
-    puts "#{@full_date}"
-    puts "It's day ** #{@day_in_year} ** of the year."
-  end
+  # def todays_date # move to object
+  #   time = Time.new
+  #   @full_date = time.strftime(" %A %B %d %Y ")
+  #   @day_in_year = time.strftime("%j")
+  #   puts "#{@full_date}"
+  #   puts "It's day ** #{@day_in_year} ** of the year."
+  # end
 
   def choose
     #ask for input
