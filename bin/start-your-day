@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-#is this line necessary? if i have it in the console? 
 require_relative '../config/environment'
 
 
@@ -9,4 +8,6 @@ StartYourDay::CLI.new.call
 #add "front-end" interaction here 
 # how do i want to start it -- what's in the call method -- hello / get started /pick your data 
 #Start_Your_Day::CLI.new.call 
+
+#chains together new -- an instantiation of the CLI class and chains that to call, to get things started. 
 

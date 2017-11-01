@@ -5,6 +5,9 @@ source "https://rubygems.org"
 # Specify your gem's dependencies in Start_Your_Day.gemspec
 gemspec
 
+gem 'pry'
+gem 'nokogiri'
+
 
 
 

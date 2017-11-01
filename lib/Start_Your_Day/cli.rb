@@ -1,4 +1,3 @@
-require 'pry'
 # require 'date'
 
 # do these need to go here, or is the dependency now assumed? 
@@ -8,7 +7,8 @@ class StartYourDay::CLI
   def call
     # start out by scraping all the data
     puts "Welcome to the new day..."
-    # todays_date
+    # 
+    #add @todays_stuff = StartYourDay::Scraper.new
     choose
    
   end
@@ -24,6 +24,7 @@ class StartYourDay::CLI
   def choose
     #ask for input
     @input = ""
+            
 
     # while @input != "X".downcase
       puts "@@@@@@@@@@\n"
@@ -47,18 +48,23 @@ class StartYourDay::CLI
     when @input == "a"
       puts "Begin your day with abundance.\n"
       # puts "#{Scraper.day_starters}"
-      puts "@@@@@@@@@@\n"
+      puts "@@@@@@@@@@\n"    
+ 
       puts "Ease in with a meditation: "
-      puts "#{Scraper.meditation}"
+      puts "#{StartYourDay::Scraper.meditation}"
+      
       puts "@@@@@@@@@@\n"
       puts "Today's writing tip:"
-      puts "#{Scraper.writing_tip}\n"
+      puts "#{StartYourDay::Scraper.writing_tip}\n"
+      
       puts "@@@@@@@@@@\n"
       puts "Word of the Day is:"
-      puts "#{Scraper.word_of_the_day}\n "
+      puts "#{StartYourDay::Scraper.word_of_the_day}\n "
+      
       puts "@@@@@@@@@@\n"
       puts "Idea tidbits and conversation starters:"
-      puts " #{Scraper.ideas}\n"
+      puts " #{StartYourDay::Scraper.ideas}\n"
+      
       puts "@@@@@@@@@@\n"
       puts "Don't forget to follow your passions. See you tomorrow."
   
@@ -71,17 +77,17 @@ class StartYourDay::CLI
     when @input == "2"
       puts "@@@@@@@@@@\n"
       puts "Today's writing tip:"
-      puts "#{Scraper.writing_tip}\n"
+      puts "#{StartYourDay::Scraper.writing_tip}\n"
       choose
 
     when @input == "3"
       puts "@@@@@@@@@@\n"
       puts "Word of the Day is:"
-      puts "#{Scraper.word_of_the_day}\n "
+      puts "#{StartYourDay::Scraper.word_of_the_day}\n "
       choose
 
     when @input == "4"
-      puts " #{Scraper.ideas}\n"
+      puts " #{StartYourDay::Scraper.ideas}\n"
       puts "@@@@@@@@@@\n"
       puts "Don't forget to follow your passions. See you tomorrow."
       choose
@@ -94,6 +100,11 @@ class StartYourDay::CLI
       puts "Please re-enter your choice."
       choose  
     end
+  end
+
+  def ending
+    puts "Don't forget to follow your passions. See you tomorrow."
+
   end
 end
 

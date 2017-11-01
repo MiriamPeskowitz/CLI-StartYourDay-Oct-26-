@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
-#are these two needed? 
-#require "bundler/setup"
-#require "Start_Your_Day" #is this right -- name change/// 
- #I added this: 
+require "bundler/setup"
+#do i need this here? )
+
 require "irb"
 require "pry"
 
@@ -14,13 +13,10 @@ end
 
 require_relative "../config/environment"
 
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
-
-# (If you use this, don't forget to add pry to your Gemfile!)
 Pry.start
 IRB.start
 
-#This is how it came -- what do I need to do to it? 
 
 puts "welcome to the sandbox"
+
+#use this template

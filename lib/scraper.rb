@@ -7,9 +7,10 @@ class StartYourDay::Scraper
 @@all = []
 
     def self.meditation
+
       doc1 = Nokogiri::HTML(open("https://www.dailyzen.com/"))
-      daily_med = doc1.css("blockquote").text.gsub("\n", "").gsub("\t", "")
-      Meditation.new(@daily_med)
+      med = doc1.css("blockquote").text.gsub("\n", "").gsub("\t", "")
+      Meditation.new(med)
       # @@all << @daily_med
 
     end
@@ -32,7 +33,6 @@ class StartYourDay::Scraper
       doc4 = Nokogiri::HTML(open("https://www.aspeninstitute.org/ideas/"))
       title = doc4.css(".five-best-ideas__card__text").text.gsub(".", ".  ") # how to get the first only #change to regex with . ! ? 
       Ideas.new(title)
-      binding.pry
     end
 
     def self.starters
